@@ -49,7 +49,6 @@ class BerandaScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16),
-            // Statistik dibaca langsung dari database
             ListenableBuilder(
               listenable: ProjectStore.instance,
               builder: (context, _) {
